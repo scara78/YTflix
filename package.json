@@ -1,0 +1,25 @@
+{
+  "name": "youtubestreamer",
+  "version": "1.0.0",
+  "description": "A youtube streaming API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "streaming",
+    "youtube",
+    "downloader"
+  ],
+  "author": "Iheb Belhaj",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pump": "^3.0.0",
+    "range-parser": "^1.2.1",
+    "ytdl-core": "^4.11.2"
+  }
+}
